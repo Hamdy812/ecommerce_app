@@ -11,7 +11,7 @@ const sendemail=async(options)=>{
     }
    });
   const mailoption={
-    from:"E-shop APP<ibrahimelsaed405@gmail.com>",
+    from:"E-shop APP process.env.EMAIL_USER",
     to:options.email,
     subject:options.subject,
     text:options.message,
